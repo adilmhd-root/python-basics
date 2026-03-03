@@ -1,29 +1,29 @@
 # Simple Calculator Project
 
 
-# 1️⃣ Function to add two numbers
+# Function to add two numbers
 def add(a, b):
     return a + b
 
 
-# 2️⃣ Function to subtract two numbers
+# Function to subtract two numbers
 def sub(a, b):
     return a - b
 
 
-# 3️⃣ Function to multiply two numbers
+# Function to multiply two numbers
 def mul(a, b):
     return a * b
 
 
-# 4️⃣ Function to divide safely
+# Function to divide safely
 def div(a, b):
     if b == 0:
         return "Error: Cannot divide by zero!"
     return a / b
 
 
-# 5️⃣ Main function – handles user input and shows output
+# Main function – handles user input and shows output
 def calculator():
 
     print("---- Simple Calculator ----")
@@ -60,3 +60,4 @@ def calculator():
 
 # run the project
 calculator()
+
